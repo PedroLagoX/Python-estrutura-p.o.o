@@ -1,4 +1,4 @@
-from models.enums.unidadefederativa import Unidadefederativa
+from atividade.models.enums.unidadefederativa import Unidadefederativa
 
 
 class Endereco:
