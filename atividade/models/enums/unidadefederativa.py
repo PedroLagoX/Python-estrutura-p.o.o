@@ -1,6 +1,10 @@
 from enum import Enum
 
-class Unidadefederativa(enumerate):
-    BAHIA = "Bahia"
-    SAO_PAULO = "São Paulo"
-    RIO_DE_JANEIRO = "Rio de Janeiro"
+class Unidadefederativa(Enum):
+    BAHIA = ("Bahia", "BA")
+    SAO_PAULO = ("São Paulo", "SP")
+    RIO_DE_JANEIRO = ("Rio de Janeiro", "RJ")
+
+    def __init__(self, nome:str, sigla:str) -> None:
+        self.nome = nome
+        self.sigla = sigla

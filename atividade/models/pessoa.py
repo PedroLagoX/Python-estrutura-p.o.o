@@ -19,6 +19,7 @@ class Pessoa:
             f"\nData de Nascimento: {self.dataNascimento}"
             f"\nTelefone: {self.telefone}"
             f"\nEmail: {self.email}"
-            f"\nSexo: {self.sexo}"
+            f"\nSexo: {self.sexo.texto}"
+            f"\nSexo: {self.sexo.caracter}"
             f"\nEndereço {self.endereco}"
         )
