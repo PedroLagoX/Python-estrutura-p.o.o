@@ -12,8 +12,8 @@ def criar_pessoa():
     return pessoa_1
 
 def test_pessoa_atributo_nome(criar_pessoa):
-    assert criar_pessoa.nome == "Pedro"
+    assert criar_pessoa.id == "11"
 
 def test_pessoa_atributo_idade(criar_pessoa):    
-    assert criar_pessoa.dataNascimento == "03/07"
+    assert criar_pessoa.nome == "Pedro"
     
